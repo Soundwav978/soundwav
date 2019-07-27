@@ -1,0 +1,22 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  width: 95%;
+  height: 100vh;
+  margin: 0 auto;
+}
+content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(/Users/Lou/GitHub/soundwav/build/images/beach_party_tickets.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+  opacity: .3;
+  }

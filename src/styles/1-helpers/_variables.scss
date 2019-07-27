@@ -18,7 +18,29 @@ $breakpoint-mobile: 400px;
 //*************
 //FONT STYLES
 //*************
-$font-light: ;
-$font-book: ;
-$font-medium: ;
-$font-bold: ;
+//$font-light: ;
+//$font-book: ;
+//$font-medium: ;
+//$font-bold: ;
+
+
+
+$d-gry: #565559;
+$m-gry: #88888C;
+$green: #3D8C8C;
+$l-gry: #F2F2F2;
+$dark: #262626;
+
+/* Color Theme Swatches in RGBA */
+$sea-wave-and-dark-clouds-on-background-1-rgba: rgba(86,85,89, 1);
+$sea-wave-and-dark-clouds-on-background-2-rgba: rgba(136,136,140, 1);
+$sea-wave-and-dark-clouds-on-background-3-rgba: rgba(61,140,140, 1);
+$sea-wave-and-dark-clouds-on-background-4-rgba: rgba(242,242,242, 1);
+$sea-wave-and-dark-clouds-on-background-5-rgba: rgba(38,38,38, 1);
+
+/* Color Theme Swatches in HSLA */
+$sea-wave-and-dark-clouds-on-background-1-hsla: hsla(255, 2, 34, 1);
+$sea-wave-and-dark-clouds-on-background-2-hsla: hsla(240, 1, 54, 1);
+$sea-wave-and-dark-clouds-on-background-3-hsla: hsla(180, 39, 39, 1);
+$sea-wave-and-dark-clouds-on-background-4-hsla: hsla(0, 0, 94, 1);
+$sea-wave-and-dark-clouds-on-background-5-hsla: hsla(0, 0, 14, 1);

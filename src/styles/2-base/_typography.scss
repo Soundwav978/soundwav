@@ -1,14 +1,16 @@
-//@font-face {
-//  @font-face {
-//    font-family: "Open Sans";
-//    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-//         url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-//  }
-//}
+@import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Open+Sans:300,400,600,700,800&display=swap');
 
-//h2 {
-//  font-size: 1em;
-//  @media (max-width: $breakpoint-tablet) {
-//    font-size: .7em;
-//  }
-//}
+nav ul li a {
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.5em;
+font-variant: all-petite-caps;
+font-weight: 800;
+letter-spacing: .1em;
+text-decoration: none;
+color: $d-gry;
+  &:hover {
+    color: $green;
+    transition-duration: .5s;
+  }
+}
