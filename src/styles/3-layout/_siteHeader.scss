@@ -10,6 +10,9 @@ header {
   z-index: 1000;
   opacity: .7;
   background: white;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 figure.logo {
