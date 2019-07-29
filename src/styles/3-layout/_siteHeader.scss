@@ -3,10 +3,17 @@ header {
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+  opacity: .7;
+  background: white;
 }
 
 figure.logo {
-  width: 30%;
+  width: 22%;
   margin: 1%;
 }
 img.logo{

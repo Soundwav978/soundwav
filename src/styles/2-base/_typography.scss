@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Open+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
 
 nav ul li a {
-font-family: 'Open Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-size: 1.5em;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.75em;
 font-variant: all-petite-caps;
 font-weight: 800;
 letter-spacing: .1em;
 text-decoration: none;
 color: $d-gry;
   &:hover {
-    color: $green;
+    color: $blue;
     transition-duration: .5s;
   }
 }
