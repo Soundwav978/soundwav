@@ -102,13 +102,8 @@ body {
 
 section {
   width: 100%;
-  height: 150vh;
-  margin: 0 auto; }
-
-content {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  height: 200vh;
+  margin: 0 auto;
   background-image: url("images/beach_party_tickets.jpg");
   background-position: initial;
   background-repeat: no-repeat;
@@ -116,6 +111,11 @@ content {
   align-items: center;
   height: 100vh;
   opacity: .3; }
+
+content {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
 
 header {
   display: flex;
