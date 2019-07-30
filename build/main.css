@@ -10,11 +10,11 @@ Error: Invalid CSS after "$blue: #34dbeb": expected "{", was ";"
 26: 
 27: <<<<<<< HEAD
 28: $blue: #34dbeb;
-29: =======
-30: $blue: #47a1ac;
-31: >>>>>>> parent of dd374a5... Revert "dual picture background and fixed content"
-32: $d-gry: #565559;
-33: $m-gry: #88888C;
+29: $blue: #47a1ac;
+30: $d-gry: #565559;
+31: $m-gry: #88888C;
+32: $green: #3D8C8C;
+33: $l-gry: #F2F2F2;
 
 Backtrace:
 /Users/Lou/GitHub/soundwav/src/styles/1-helpers/_variables.scss:28
@@ -88,4 +88,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"$blue: #34dbeb\": expected \"{\", was \";\"\A         on line 28 of /Users/Lou/GitHub/soundwav/src/styles/1-helpers/_variables.scss\A         from line 1 of /Users/Lou/GitHub/soundwav/src/styles/1-helpers/_1-helpers.scss\A         from line 1 of /Users/Lou/GitHub/soundwav/src/styles/main.scss\A \A 23: //$font-medium: ;\A 24: //$font-bold: ;\A 25: \A 26: \A 27: <<<<<<< HEAD\A 28: $blue: #34dbeb;\A 29: =======\A 30: $blue: #47a1ac;\A 31: >>>>>>> parent of dd374a5... Revert \"dual picture background and fixed content\"\A 32: $d-gry: #565559;\A 33: $m-gry: #88888C;"; }
+  content: "Error: Invalid CSS after \"$blue: #34dbeb\": expected \"{\", was \";\"\A         on line 28 of /Users/Lou/GitHub/soundwav/src/styles/1-helpers/_variables.scss\A         from line 1 of /Users/Lou/GitHub/soundwav/src/styles/1-helpers/_1-helpers.scss\A         from line 1 of /Users/Lou/GitHub/soundwav/src/styles/main.scss\A \A 23: //$font-medium: ;\A 24: //$font-bold: ;\A 25: \A 26: \A 27: <<<<<<< HEAD\A 28: $blue: #34dbeb;\A 29: $blue: #47a1ac;\A 30: $d-gry: #565559;\A 31: $m-gry: #88888C;\A 32: $green: #3D8C8C;\A 33: $l-gry: #F2F2F2;"; }
