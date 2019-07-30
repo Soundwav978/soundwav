@@ -8,16 +8,15 @@ header {
   right: 0;
   position: fixed;
   z-index: 1000;
-  opacity: .9;
+  opacity: .7;
   background: white;
   &:hover {
-    transition-duration: .5s;
     opacity: 1;
   }
 }
 
 figure.logo {
-  width: 18%;
+  width: 22%;
   margin: 1%;
 }
 img.logo{
