@@ -8,7 +8,7 @@ section {
   height: 200vh;
   margin: 0 auto;
   align-items: center;
-  margin: 0 auto;
+  margin: 2% auto;
   align-items: center;
 }
 content {
@@ -23,6 +23,9 @@ content {
   background-color: black;
   opacity: .8;
   z-index: 1;
+  &:hover{
+    opacity: .9;
+  }
 }
 
 
