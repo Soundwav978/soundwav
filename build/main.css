@@ -118,10 +118,12 @@ content {
   position: fixed;
   margin: 0 6%;
   background-color: black;
-  opacity: .8;
-  z-index: 1; }
+  opacity: 0;
+  z-index: 1;
+  border-radius: 18px;}
   content:hover {
-    opacity: .9; }
+    opacity: .9;
+    transition-duration: 2s;}
 
 figure.bckg, figure.bckg.logo {
   width: 100%;
