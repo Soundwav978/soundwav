@@ -5,28 +5,13 @@ body {
 }
 section {
   width: 100%;
-<<<<<<< HEAD
   height: 200vh;
   margin: 0 auto;
-  background-image: url('images/beach_party_tickets.jpg');
-  background-position: initial;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  height: 100vh;
-  opacity: .3;
-=======
-  margin: 0 auto;
-  align-items: center;
-  height: 200vh;
->>>>>>> parent of dd374a5... Revert "dual picture background and fixed content"
+  position: fixed;
 }
 content {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-  width: 100%;
-=======
   width: 88%;
   top: 48%;
   height: 72vh;
@@ -35,18 +20,19 @@ content {
   background-color: black;
   opacity: .8;
   z-index: 1;
-}
-
+  &:hover{
+    opacity: .9;
+  }
 
   figure.bckg, figure.bckg.logo {
-    width: 100%;
+    width: 47%;
     z-index: -1;
     background-color: white;
+    margin: 0 auto;
     .background_logo {
       width: 47%;
       margin: 0 24%;
     }
->>>>>>> parent of dd374a5... Revert "dual picture background and fixed content"
   }
 
 img.background {

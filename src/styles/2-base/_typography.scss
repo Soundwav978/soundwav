@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow|Open+Sans:300,400,600,700,800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barrio|Kirang+Haerang&display=swap');
+
 
 nav ul li a {
-font-family: 'Josefin Sans', sans-serif;
-font-size: 1.75em;
+font-family: 'Barrio', cursive;
+font-size: 1.9em;
 font-variant: all-petite-caps;
 font-weight: 800;
 letter-spacing: .1em;
@@ -11,6 +13,7 @@ text-decoration: none;
 color: $d-gry;
   &:hover {
     color: $blue;
-    transition-duration: .5s;
+    transition-duration: .2s;
+    letter-spacing: .3em;
   }
 }

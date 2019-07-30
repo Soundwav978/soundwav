@@ -17,8 +17,12 @@ header {
 }
 
 figure.logo {
-  width: 18%;
+  width: 7%;
   margin: 1%;
+  &:hover {
+    width: 13%;
+    transition-duration: 1s;
+  }
 }
 img.logo{
   display: flex;
